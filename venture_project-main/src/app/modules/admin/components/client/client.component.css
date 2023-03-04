@@ -1,0 +1,56 @@
+h2.title::after{
+    content:'TESTIMONIAL';
+  
+  }
+  section{
+    background-color: #f8f9fa;
+    
+  }
+  .client-content{
+    padding: 48px;
+    border-radius: 10px;
+    background-color: #fff;
+    
+  }
+  /* .client-image{
+    margin:0 0 24px;
+  } */
+  .client-pic{
+    width:80px;
+  }
+  .client-pic img{
+    border-radius: 50%;
+    
+  }
+
+  .client-image{
+    display: flex;
+    flex-direction: row;
+    margin:0 0 24px;
+
+
+  }
+  .client-image p span{
+    color:#6C757D;
+    font-size: 16px;
+  }
+  .client-image p strong{
+    color:#212529;
+    font-size: 16px;
+    color:red;
+  }
+
+  .client-content p{
+    margin:0 0 24px;
+    font-size: 16px;
+    color: #212529;
+  }
+  .client-content .checked{
+    color:#f1c401;
+  }
+  @media(max-width:768px){
+    .client-mobile{
+      width:100%;
+      padding:10px
+    }
+  }

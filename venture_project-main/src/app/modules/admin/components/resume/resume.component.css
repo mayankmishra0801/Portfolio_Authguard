@@ -1,0 +1,107 @@
+h2.title::after{
+    content:'SUMMARY';
+
+  }
+  .t3{
+    margin-left:260px;
+  }
+.skill {
+    background-color: #ddd;
+    padding: 4px;
+    text-align: right;
+    font-size: 20px;
+    margin-top: 10px;
+    width: 100%;
+    position: relative;
+    border-radius: 10px;
+  }
+  .skill span {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    background-color: #20C997;
+    border-radius: 10px;
+  }
+  .resume-progress .last {
+    color:#212529;
+    float: right;
+    font-size: 16px;
+    margin:0 0 8px;
+    font-family: sans-serif;
+
+
+  }
+  .resume-progress .first {
+    color:#212529;
+    font-size: 16px;
+    margin:0 0 8px;
+    font-family: sans-serif;
+
+  }
+
+  .resume-head{
+    padding:0 24px;
+  }
+  .resume-head h2{
+    margin:0 0 24px;
+  }
+  .resume-content{
+    margin: 0 0 24px;
+    padding: 24px;
+    background: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+  }
+  .resume-content p{
+    margin:0 0 16px;
+    font-size: 16px;
+    color: #222222;
+  }
+  .resume-content p span{
+    border: 1px solid #20C997 ;
+    padding: 0 10px;
+    background-color: #20C997;
+    color: white;
+    border-radius:5px;
+
+  }
+  .resume-content h3{
+    margin: 0 0 8px;
+    font-size: 21px;
+    color: #252b33;
+  }
+  .resume-content p.para{
+    color:#DC3545
+  }
+  h2.skill-heading{
+    margin: 24px 0;
+    color: #252b33;
+    font-size: 24px;
+
+  }
+  .skill-progress{
+   padding: 10px 24px;
+  }
+  .btn{
+  text-align: center;
+  margin:48px 0 0;
+
+  }
+  .btn a{
+    color: #6c757d;
+    border:2px solid #6c757d;
+    padding:15px 40px;
+    border-radius: 30px;
+  }
+  .btn a:hover{
+    color:white;
+    background-color: #6c757d;
+  }
+
+  /* mobile */
+  @media(max-width:425px){
+    .resume-mobile{
+      width: 100%;
+    }
+  }

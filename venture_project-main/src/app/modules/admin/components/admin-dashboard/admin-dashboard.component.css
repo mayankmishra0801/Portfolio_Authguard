@@ -1,0 +1,18 @@
+ul li {
+  text-align: center;
+  /* background-color: brown; */
+  /* border-radius: 20px; */
+  /* padding: 10px; */
+  /* padding-top: 10px; */
+  background-color: aqua;
+  padding: 20px;
+}
+
+ul li a{
+  background-color: brown;
+  padding: 10px ;
+  border-radius: 10px;
+}
+ul li :hover{
+  background-color: blue;
+}

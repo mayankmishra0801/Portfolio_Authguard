@@ -1,0 +1,40 @@
+.copyright{
+    /* padding-top: 50px; */
+    /* padding-bottom: 50px; */
+    color: #fff;
+    background-color: #ddd;
+    /* height:80px */
+  }
+
+  .t8{
+    margin-left:260px;
+  }
+  .copy{
+    float:left;
+    color:#252b33;
+  }
+  .copy span{
+    color:#20c997
+  }
+.footer-right{
+  float: right;
+  margin-right: 30px;
+  color:#252b33;
+}
+.footer-item span{
+  padding:20px;
+  color:#fff;
+}
+.footer-right:hover{
+  color:#20c997
+}
+
+/* mobile */
+@media(max-width:425px){
+  .copyright-mobile{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top:20px ;
+  }
+}
