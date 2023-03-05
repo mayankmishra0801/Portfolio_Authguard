@@ -7,6 +7,12 @@ ul li {
   background-color: aqua;
   padding: 20px;
 }
+.ab{
+  position: fixed;
+  width:100%;
+  margin-left: 260px;
+
+}
 
 ul li a{
   background-color: brown;

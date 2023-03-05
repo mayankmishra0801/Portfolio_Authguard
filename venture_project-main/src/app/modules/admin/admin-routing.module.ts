@@ -18,7 +18,7 @@ const routes: Routes = [
       { path: 'touch', component: TouchComponent },
       {path:'resume', component: ResumeComponent},
       {path:'client',component:ClientComponent},
-      { path: '', redirectTo: '/admin/home', pathMatch: 'full',  },
+      { path: '', redirectTo: '/admin', pathMatch: 'full',  },
     ],
   },
 ];
